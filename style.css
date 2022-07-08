@@ -50,3 +50,21 @@ body{
     transform: translate(0,15px);
   }
 }
+
+.box{
+  width: 15px;
+  height: 15px;
+  background-color: #008cbc;
+  display: inline-block;
+  animation: pulse 0.6s ease-in infinite alternate;
+}
+
+.box2, .box3 {
+  animation-delay: 0.6s;
+}
+
+@keyframes pulse{
+  100%{
+    opacity: 0;
+  }
+}
